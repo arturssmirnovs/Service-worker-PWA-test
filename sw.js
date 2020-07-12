@@ -9,7 +9,9 @@ self.addEventListener('install', function(event) {
                 'off.svg',
                 'style.css',
                 'script.js',
-                'index.html'
+                'manifest.json',
+                'index.html',
+                '/'
             ]);
         })
     )
