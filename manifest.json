@@ -4,13 +4,13 @@
   "description": "Service worker + PWA sample app",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "https://arturssmirnovs.github.io/Service-worker-PWA-test/favicon.png",
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "/Service-worker-PWA-test/",
   "background_color": "#ffffff",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/Service-worker-PWA-test/",
   "theme_color": "#000000"
 }
