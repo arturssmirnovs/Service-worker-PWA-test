@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Service worker + PWA</title>
+    <meta name="description" content="">
+    <meta name="author" content="arturssmirnovs">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Service worker + PWA">
+    <meta name="apple-mobile-web-app-title" content="Service worker + PWA">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-navbutton-color" content="#000000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="on.svg" class="status online" id="online" style="display: none;" onclick="playYes()">
+
+    <img src="off.svg" class="status offline" id="offline" style="display: none;" onclick="playNo()">
+
+    <script src="script.js"></script>
+
+</body>
+</html>
