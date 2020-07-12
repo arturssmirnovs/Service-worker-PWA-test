@@ -10,8 +10,7 @@ self.addEventListener('install', function(event) {
                 'style.css',
                 'script.js',
                 'manifest.json',
-                'index.html',
-                '/'
+                'index.html'
             ]);
         })
     )
